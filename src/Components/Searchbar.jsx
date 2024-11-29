@@ -26,6 +26,7 @@ const SearchBar = () => {
                     original_title: movie.original_title,
                     original_language: movie.original_language,
                     vote_average: movie.vote_average,
+                    poster_path: movie.poster_path
                 })),
                 ...tvData.results.map((tv) => ({
                     id: tv.id,
@@ -33,6 +34,7 @@ const SearchBar = () => {
                     original_title: tv.original_name,
                     original_language: tv.original_language,
                     vote_average: tv.vote_average,
+                    poster_path: tv.poster_path
                 }))
             ];
 
