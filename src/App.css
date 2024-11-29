@@ -35,4 +35,21 @@ main {
     overflow-y: auto;
     flex: 1;
     height: 100%;
+    position: relative;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+
+}
+
+.container {
+
+    @media (max-width: 576px) {
+        margin: 0;
+        text-align: center;
+    }
+
+
 }

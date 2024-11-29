@@ -3,8 +3,9 @@ export function AppHeader() {
     return (
 
         <header>
-            <div className="container d-flex justify-content-between align-items-center">
-                <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+            <div className="container d-flex justify-content-between align-items-center row m-auto">
+
+                <svg className='col-md-6 col-12 d-flex justify-content-between align-items-center' width="400" height="200" xmlns="http://www.w3.org/2000/svg">
 
                     <path id="curve" d="M 50,150 Q 200,50 350,150" fill="transparent" stroke="none" />
 
@@ -17,7 +18,13 @@ export function AppHeader() {
                 </svg>
 
 
+
                 <SearchBar />
+
+
+
+
+
             </div>
         </header>
 
