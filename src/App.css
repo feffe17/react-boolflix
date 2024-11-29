@@ -4,10 +4,35 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+
+}
+
 body {
     background: rgb(121, 9, 9);
     background: linear-gradient(0deg, rgba(121, 9, 9, 1) 10%, rgba(2, 0, 36, 1) 80%);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     overflow-y: hidden;
+}
+
+.App {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+main {
+    overflow-y: auto;
+    flex: 1;
+    height: 100%;
 }

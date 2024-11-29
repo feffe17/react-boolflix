@@ -1,19 +1,16 @@
 import './App.css'
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import { AppHeader } from './Components/AppHeader'
+import { AppMain } from './Components/AppMain'
 
-import MovieList from './Components/MovieList'
 
 function App() {
 
   return (
-    <>
+    <div className="App">
       <AppHeader />
-
-
-      <MovieList />
-
-    </>
+      <AppMain />
+    </div>
   )
 }
 
