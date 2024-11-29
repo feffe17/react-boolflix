@@ -1,16 +1,18 @@
 import './App.css'
-import SearchBar from './Components/Searchbar'
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+import { AppHeader } from './Components/AppHeader'
+
 import MovieList from './Components/MovieList'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>BoolFlix</h1>
-        <SearchBar />
-        <MovieList />
-      </div>
+      <AppHeader />
+
+
+      <MovieList />
+
     </>
   )
 }

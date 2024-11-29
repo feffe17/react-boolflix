@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { MovieContext } from '../Context/MovieContext';
+import style from "./Searchbar.module.css"
 
 const SearchBar = () => {
     const { query, setQuery, setMovies } = useContext(MovieContext);
@@ -45,14 +46,19 @@ const SearchBar = () => {
     };
 
     return (
-        <div>
+        <div className={style.InputContainer}>
             <input
+                className={style.StyledInput}
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Cerca un film o una serie TV..."
             />
-            <button onClick={handleSearch}>Cerca</button>
+            <button
+                className={style.SubmitBtn}
+                onClick={handleSearch}>
+                Cerca
+            </button>
         </div>
     );
 };

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(121, 9, 9);
+    background: linear-gradient(0deg, rgba(121, 9, 9, 1) 10%, rgba(2, 0, 36, 1) 80%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden;
+}

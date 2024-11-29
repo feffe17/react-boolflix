@@ -1,0 +1,71 @@
+.InputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.StyledInput {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.StyledInput::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.StyledInput:hover {
+    border-color: #888;
+    background-color: #f5f5f5;
+}
+
+.StyledInput:focus {
+    border-color: #790909;
+    box-shadow: 0 0 5px rgba(138, 6, 6, 0.5);
+    background-color: #fff;
+}
+
+.StyledInput:disabled {
+    background-color: #e0e0e0;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.SubmitBtn {
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #790909;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.SubmitBtn:hover {
+    background-color: #a50d0d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.SubmitBtn:active {
+    background-color: #610707;
+    transform: scale(0.98);
+}
+
+.SubmitBtn:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
