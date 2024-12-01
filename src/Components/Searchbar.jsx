@@ -6,7 +6,7 @@ const SearchBar = () => {
     const { query, setQuery, setMovies } = useContext(MovieContext);
 
     const handleSearch = async () => {
-        const API_KEY = 'a508a837fab14f25520704b50ed45c8c';
+        const API_KEY = import.meta.env.VITE_API_KEY;
         try {
             const [moviesResponse, tvResponse] = await Promise.all([
                 fetch(
