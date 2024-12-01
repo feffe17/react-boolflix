@@ -1,12 +1,12 @@
-import { AppHeader } from "../Components/AppHeader"
-import { AppMain } from "../Components/AppMain"
+
+import MovieList from '../components/MovieList'
 
 export default function HomePage() {
     return (
-        <div className="App">
-            <AppHeader />
-            <AppMain />
-
-        </div>
+        <main>
+            <div className="container">
+                <MovieList />
+            </div>
+        </main>
     )
 }

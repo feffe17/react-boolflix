@@ -1,8 +1,9 @@
 import './App.css'
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
-import { PageNotFound } from './Components/PageNotFound'
+import DefaultLayout from './pages/DefaultLayout'
+import HomePage from './pages/HomePage'
+import PostDetail from './pages/PostDetail'
 
 
 function App() {
