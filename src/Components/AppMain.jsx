@@ -1,5 +1,5 @@
 import MovieList from "./MovieList"
-import { AppFooter } from "./AppFooter"
+// import { AppFooter } from "./AppFooter"
 export function AppMain() {
     return (
 
@@ -11,7 +11,7 @@ export function AppMain() {
 
 
             </div>
-            <AppFooter />
+
         </main >
 
     )

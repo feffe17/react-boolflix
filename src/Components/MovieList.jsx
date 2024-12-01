@@ -8,6 +8,7 @@ import { getPosterUrl } from '../Utility/getPosterUrl';
 import { getStarRating } from '../Utility/getStarRating';
 import style from './MovieList.module.css'
 
+
 const MovieList = () => {
     const { movies } = useContext(MovieContext);
 
@@ -56,6 +57,7 @@ const MovieList = () => {
                     </div>
                 </div>
             ))}
+
         </div>
     );
 };
